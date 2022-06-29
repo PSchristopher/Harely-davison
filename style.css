@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.black{
+
+    padding-top: 6px;
+    font-size: .75rem;
+    line-height: 1rem;
+    height:32px;
+}
+.black img{
+    height: 16px;
+}
+.black li{
+  padding-right: 56px;
+}
+.navbar li{
+    padding-right: 10px;
+  }
+.logo{
+    height:49px ;
+}
+.options:hover{
+    height: 58px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.down1a{
+background: black;
+}
+.down1b{
+    background-image: url(images/the-enthusiast-collection-short-hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.option1{
+font-size: large;
+}
+.option1:hover{
+    color: orangered;
+}
+
+.category li{
+    padding-right: 10px;
+}
+
+.bi img{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .category{
+        flex-wrap: wrap;
+    }
+}
